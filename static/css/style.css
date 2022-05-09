@@ -301,7 +301,8 @@ body.dark .sidebar li a:hover .text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: scroll;
+    overflow-y: auto;
+    padding-bottom: 25px;
 }
 
 .menu-bar::-webkit-scrollbar {
@@ -512,9 +513,7 @@ color: var(--web-color) ;
     transform: translate(-50%, -50%);
     z-index: 3;
 }
-.response-img{
-    width: 80%;
-}
+
 @media (max-width: 1600px) {
     .hero h1{
         font-size: 48px;
@@ -629,9 +628,7 @@ color: var(--web-color) ;
         right: 8px;
         bottom: 8px;
     }
-    .response-img{
-        width: 80px;
-    }
+
 
 }
 
